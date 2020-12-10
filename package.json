@@ -1,0 +1,29 @@
+{
+  "name": "superproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "another.js",
+  "scripts": {
+    "something": "node file.js",
+    "format": "prettier --write *.js",
+    "lint": "eslint *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pranavgg/mynewproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pranavgg/mynewproject/issues"
+  },
+  "homepage": "https://github.com/Pranavgg/mynewproject#readme",
+  "dependencies": {
+    "minify": "^6.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^6.15.0",
+    "prettier": "2.2.0"
+  }
+}
